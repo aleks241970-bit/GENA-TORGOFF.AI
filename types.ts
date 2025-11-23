@@ -1,7 +1,12 @@
+
 export enum AppMode {
   GENERATE = 'GENERATE',
   STYLIZE = 'STYLIZE',
   CLEANUP = 'CLEANUP',
+  MIX = 'MIX',
+  PARTIAL_STYLE = 'PARTIAL_STYLE',
+  REMOVE_BG = 'REMOVE_BG',
+  RESTORATION = 'RESTORATION',
 }
 
 export interface GeneratedImage {
